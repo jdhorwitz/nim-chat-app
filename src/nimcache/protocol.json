@@ -1,0 +1,20 @@
+{"compile":[
+["/Users/joshuahorwitz/nim/ChatApp/src/nimcache/protocol.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.17.2/nim/lib -o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/protocol.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/protocol.c"],
+],
+"link":[
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/protocol.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_system.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_json.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_hashes.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_tables.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_strutils.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_lexbase.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_streams.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_unicode.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_macros.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_parseutils.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_math.o",
+"/Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_algorithm.o"
+],
+"linkcmd": "clang   -o /Users/joshuahorwitz/nim/ChatApp/src/protocol  /Users/joshuahorwitz/nim/ChatApp/src/nimcache/protocol.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_system.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_json.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_hashes.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_tables.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_strutils.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_lexbase.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_streams.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_unicode.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_macros.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_parseutils.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_math.o /Users/joshuahorwitz/nim/ChatApp/src/nimcache/stdlib_algorithm.o  -lm   -ldl"
+}
